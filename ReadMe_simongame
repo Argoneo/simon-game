@@ -1,0 +1,50 @@
+Simon Game
+This project is a web version of the classic Simon memory game. 
+The game shows a sequence of colors that the player must repeat in the correct order.
+ Each level adds a new color to the sequence. The challenge grows as the player
+progresses.
+
+TABLE OF CONTENT
+
+Overview
+  - The challenge
+  - Links
+
+My process
+  - Built with
+  - What I learned
+
+Author
+
+OVERVIEW 
+
+- The challenge
+
+  Users should be able to:
+    - Start the game by pressing a key
+    - See a sequence of flashing buttons
+    - Repeat the sequence using keyboard or mouse clicks
+    - Receive visual feedback when pressing a button
+    - Restart the game after making a mistake
+
+- Links
+    - GitHub: https://github.com/Argoneo
+
+- My process
+  - Built with
+    - HTML5
+    - CSS3
+    - JavaScript (DOM + jQuery)
+    - Google Fonts – Press Start 2P
+    - Fully responsive design using media queries
+    - Color-coded button interactions with animation effects
+
+- What I learned
+  - How to simulate state and sequence logic in JavaScript
+  - How to use arrays to manage user input and game patterns
+  - How to create interactive UI with jQuery event listeners
+  - How to use media queries for scalable game layouts
+  - How to build a complete game experience in a single page
+
+Author
+GitHub – @Argoneo

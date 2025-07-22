@@ -78,11 +78,18 @@ function startOver() {
   started = false;
 }
 
-$(document).keypress(function() {
+function startGame() {
   if (!started) {
-    $("#level-title").text("Level " + level);
+    document.getElementById("level-title").textContent = "Level " + level;
     nextSequence();
     started = true;
   }
-});
+}
+
+// Avvio tramite tastiera (desktop)
+document.addEventListener("keydown", startGame);
+
+// Avvio tramite tap o click sul titolo (mobile)
+document.getElementById("level-title").addEventListener("click", startGame);
+document.getElementById("level-title").addEventListen
 

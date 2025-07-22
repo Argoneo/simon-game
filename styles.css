@@ -89,6 +89,14 @@ body {
   }
 }
 
+/* ================================
+  LAST CHANGE
+================================== */
+
+#level-title {
+  cursor: pointer;
+}
+
 @media (max-width: 950px) {
   .container {
     width: 90%;
